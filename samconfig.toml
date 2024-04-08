@@ -1,8 +1,8 @@
 version = 0.1
 [default.deploy.parameters]
-stack_name = "pet-store"
+stack_name = "mylambda"
 resolve_s3 = true
-s3_prefix = "pet-store"
+s3_prefix = "mylambda"
 region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"

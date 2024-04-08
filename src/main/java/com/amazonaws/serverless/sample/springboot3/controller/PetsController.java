@@ -17,14 +17,12 @@ package com.amazonaws.serverless.sample.springboot3.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.amazonaws.serverless.sample.springboot3.model.Pet;
-import com.amazonaws.serverless.sample.springboot3.model.PetData;
+import com.amazonaws.serverless.sample.springboot3.controller.dto.Pet;
+import com.amazonaws.serverless.sample.springboot3.controller.dto.PetData;
 
 import java.security.Principal;
 import java.util.Optional;
